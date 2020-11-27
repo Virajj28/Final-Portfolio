@@ -65,21 +65,66 @@ hr {
     padding: 0rem 0.5rem;
 }
 
-/** Navigation **/
+
+/** navigation **/
 
 .navigation {
     background-color: var(--primary-color);
-    color: beige;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 
-.navigation.nav-brand{font-weight: bold;
-    font-size: 1.1.rem;
+.navigation .nav-brand {
+    font-weight: bold;
 }
 
-.navigation.nav-pills{
+.navigation .nav-pills {
     text-align: right;
 }
 
-.navigation.link{ background-color: var(--primary-color);
+.navigation .link {
     color: white;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+/** header **/
+
+.hero {
+    padding:2rem;
+}
+
+.hero .hero-img {
+    max-width: 250px;
+    display: block;
+    margin:auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-highlight {
+    color: var(--primary-color);
+}
+
+/** section **/
+
+.section h3 {
+    text-align: center;
+    }
+
+.ow {
+    background-color: var(--off-white);
+
+}
+
+/** footer **/
+
+.footer {
+    background-color: var(--dark-gray);
 }
