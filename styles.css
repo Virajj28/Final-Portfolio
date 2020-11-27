@@ -104,6 +104,7 @@ hr {
 }
 
 .hero .hero-heading {
+    text-align: center;
     padding-top: 1rem;
     color: var(--dark-gray);
 }
@@ -113,6 +114,9 @@ hr {
 }
 
 /** section **/
+.section {
+    padding: 2rem;
+}
 
 .section h3 {
     text-align: center;
@@ -126,5 +130,15 @@ hr {
 /** footer **/
 
 .footer {
-    background-color: var(--dark-gray);
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+}
+
+.footer .link {
+    color: white
+}
+
+.footer ul {
+    padding-inline-start: 0px;
 }
