@@ -73,6 +73,7 @@ hr {
     color: rgb(192, 169, 120);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem ;
 }
 
 .navigation .nav-brand {
