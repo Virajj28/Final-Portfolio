@@ -92,6 +92,10 @@ hr {
     font-weight: bold;
 }
 
+ul.list-non-bullet.nav-pills {
+    padding: initial;
+}
+
 /** header **/
 
 .hero {
