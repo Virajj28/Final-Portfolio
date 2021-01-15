@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color:#111111;
+    --primary-color: #111111;
     --off-white: #dbdda6;
     --dark-gray: #F59E0B;
 }
@@ -37,12 +37,12 @@ hr {
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin-left: 0.5rem;
-   
+
 }
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 0.5rem 1rem ;
+    border-radius: 0.5rem 1rem;
     color: white;
 
 }
@@ -72,9 +72,8 @@ hr {
 .navigation {
     background-color: var(--primary-color);
     color: rgb(192, 169, 120);
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem ;
+    padding: 1rem 1rem;
+    border-radius: 1rem 1rem;
 }
 
 .navigation .nav-brand {
@@ -86,11 +85,12 @@ hr {
 }
 
 .navigation .link {
-    color:rgb(192, 169, 120);
+    color: rgb(192, 169, 120);
 }
 
 .navigation .link-active {
     font-weight: bold;
+
 }
 
 ul.list-non-bullet.nav-pills {
@@ -100,13 +100,13 @@ ul.list-non-bullet.nav-pills {
 /** header **/
 
 .hero {
-    padding:2rem;
+    padding: 2rem;
 }
 
 .hero .hero-img {
     max-width: 250px;
     display: block;
-    margin:auto;
+    margin: auto;
 }
 
 .hero .hero-heading {
@@ -126,7 +126,7 @@ ul.list-non-bullet.nav-pills {
 
 .section h3 {
     text-align: center;
-    }
+}
 
 .ow {
     background-color: var(--off-white);
@@ -136,14 +136,14 @@ ul.list-non-bullet.nav-pills {
 /** footer **/
 .footer {
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
+    border-radius: 1rem 1rem;
 }
 
 .footer .link {
-    color:rgb(192, 169, 120);
+    color: rgb(192, 169, 120);
 }
 
 .footer .footer-header {
