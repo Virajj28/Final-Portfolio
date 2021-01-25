@@ -4,6 +4,7 @@
     --primary-color: #111111;
     --off-white: palegoldenrod;
     --dark-gray: #F59E0B;
+    --link-hover: rgb(250, 176, 61);
 }
 
 body {
@@ -47,10 +48,11 @@ hr {
 
 }
 
-.link-secondary {
+.link-secondary:hover {
     color: var(--primary-color);
-    border-radius: 1.5rem ;
-    border: 1px solid var(--primary-color);
+    border-radius: 4.5rem ;
+    border: 3px solid var(--link-hover);
+     
 }
 
 /** look into BEM naming convention for CSS **/
@@ -81,17 +83,17 @@ hr {
     font-weight: bold;
 }
 
-.navigation .nav-pills {
-    text-align: right;
+.navigation .nav-pills { 
+    text-align: center;
+    
 }
 
-.navigation .link {
+.navigation .link  {
     color: rgb(192, 169, 120);
 }
 
 .navigation .link-active {
     font-weight: bold;
-
 }
 
 ul.list-non-bullet.nav-pills {
@@ -155,3 +157,4 @@ ul.list-non-bullet.nav-pills {
 .footer ul {
     padding-inline-start: 0px;
 }
+
