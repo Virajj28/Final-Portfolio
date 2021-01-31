@@ -43,15 +43,18 @@ hr {
 
 .link-primary {
     background-color: var(--primary-color);
-    border-radius: 0.5rem 1.3rem;
+    border-radius: 3.5rem;
     color: whitesmoke;
 
 }
 
-.link-secondary:hover {
+.link-secondary {
     color: var(--primary-color);
-    border-radius: 4.5rem ;
-    border: 3px solid var(--link-hover);
+}
+
+.link-secondary:hover {
+    border-radius: 3.5rem ;
+    border: 2px solid var(--link-hover);
      
 }
 
@@ -77,28 +80,25 @@ hr {
     padding: 1rem 1rem;
     border-bottom-left-radius: 1rem ;
     border-bottom-right-radius:1rem ;
-}
+} 
 
 .navigation .nav-brand {
     font-weight: bold;
 }
 
-.navigation .nav-pills { 
-    text-align: center;
-    
+.navigation .nav-pills {
+   text-align:right;
+   padding-right: 3rem;
 }
 
 .navigation .link  {
     color: rgb(192, 169, 120);
 }
 
-.navigation .link-active {
+.navigation .link-active {  
     font-weight: bold;
 }
 
-ul.list-non-bullet.nav-pills {
-    padding: initial;
-}
 
 /** header **/
 
